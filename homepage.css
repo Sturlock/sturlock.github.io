@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(39, 39, 39);
+ }
+ 
+.side {
+    height: 100vh;
+    width: 100%;
+
+    display: grid;
+    place-items: center;
+
+    overflow: hidden;
+    position: absolute;
+}
+
+.side .title {
+    color: white;
+    font-family: "Rubik", sans-serif;
+    font-size: 8vw;
+    margin: 0px 15vw;
+    width: 70vw;
+}
+
+#left-side {
+    background-color: #4F419C;
+    z-index: 2;
+}
+
+#right-side {
+    background-color: #4D704C;
+}
