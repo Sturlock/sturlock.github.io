@@ -1,0 +1,14 @@
+.gen-name #my-name {
+    font-family: monospace;
+    font-size: clamp(3rem, 10vw, 10rem);
+    color: white;
+    padding: 0rem clamp(1rem, 2vw, 3rem);
+    border-radius: clamp(0.4rem, 0.75vw, 1rem);
+    text-align: center;
+    height: 1.2em;
+  }
+
+.gen-name #my-name:hover {
+    background-color: white;
+    color: black;
+  }

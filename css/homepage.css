@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@400;700&family=VT323&display=swap');
+
 body {
     background-color: black;
  }
@@ -13,76 +15,3 @@ body {
     -ms-overflow-style: none;
     scrollbar-width: none; /* Firefox */
   }
- 
-.wrapper {
-    position: relative; /* Makes the wrapper the containing block for the absolutely positioned .side */
-    height: 100vh; /* Match the height of the .side div */
-}
-
-.side {
-    height: 100vh;
-    width: 100%;
-
-    display: grid;
-    place-items: center;
-
-    overflow: hidden;
-    position: absolute;
-}
-
-.gen-name {
-        display: grid;
-        place-items: center;
-        height: 100vh;
-        margin: 0rem;
-        overflow: hidden;
-}
-
-.gen-name h1 {
-    font-family: monospace;
-    font-size: clamp(3rem, 10vw, 10rem);
-    color: white;
-    padding: 0rem clamp(1rem, 2vw, 3rem);
-    border-radius: clamp(0.4rem, 0.75vw, 1rem);
-  }
-
-.gen-name  h1:hover {
-    background-color: white;
-    color: black;
-  }
-
-.side .title {
-    color: white;
-    font-family: "VT323", monospace;
-    font-size: 8vw;
-    margin: 0px 15vw;
-    width: 70vw;
-}
-
-.side .fancy{
-    font-family: "Permanent Marker", cursive;
-    font-size: 1.3em;
-    font-weight: 400;
-    line-height: 0.8em;
-}
-
-#left-side {
-    background-color: #4F419C;
-    z-index: 2;
-}
-
-#left-side .fancy {
-    color: orange;
-}
-
-#right-side {
-    background-color: #4D704C;
-}
-
-#right-side .title{
-    color: black;
-}
-
-#right-side .fancy{
-    color: white;
-}
