@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(39, 39, 39);
+    background-color: black;
  }
 
  /* Hide scrollbar for Chrome, Safari and Opera */
@@ -34,7 +34,6 @@ body {
         display: grid;
         place-items: center;
         height: 100vh;
-        background-color: black;
         margin: 0rem;
         overflow: hidden;
 }
@@ -45,6 +44,11 @@ body {
     color: white;
     padding: 0rem clamp(1rem, 2vw, 3rem);
     border-radius: clamp(0.4rem, 0.75vw, 1rem);
+  }
+
+.gen-name  h1:hover {
+    background-color: white;
+    color: black;
   }
 
 .side .title {
