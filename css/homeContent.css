@@ -85,7 +85,8 @@ p.text {
     box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
     border-radius: clamp(0.4rem, 0.75rem, 1rem);
     width: 40%;
-    height: 10vh;
+    height: auto;
+    padding: 1%;
 }
 
 #firstText.show {
