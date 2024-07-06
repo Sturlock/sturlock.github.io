@@ -1,6 +1,10 @@
 .headerWrapper {
-    position: fixed; /* Makes the wrapper the containing block for the absolutely positioned .side */
-    height: 100vh; /* Match the height of the .side div */
+    position: fixed;
+
+    /* Makes the wrapper the containing block for the absolutely positioned .side */
+    height: 100vh;
+
+    /* Match the height of the .side div */
     width: 100%;
 }
 
@@ -22,7 +26,7 @@
     text-align: center;
 }
 
-.side .fancy{
+.side .fancy {
     font-family: "Permanent Marker", cursive;
     font-size: 1.3em;
     font-weight: 400;
@@ -42,10 +46,10 @@
     background-color: #4D704C;
 }
 
-#right-side .title{
+#right-side .title {
     color: black;
 }
 
-#right-side .fancy{
+#right-side .fancy {
     color: white;
 }

@@ -1,104 +1,109 @@
 .contentWrapper {
-  position: relative; /* Makes the wrapper the containing block for the absolutely positioned .side */
-  top: 100vh;
-  height: 200vh; /* Match the height of the .side div */
-  width: 100%;
+    position: relative;
+
+    /* Makes the wrapper the containing block for the absolutely positioned .side */
+    top: 100vh;
+    height: 200vh;
+
+    /* Match the height of the .side div */
+    width: 100vw;
 }
+
 .gen-name {
-  display: grid;
-  place-items: top;
-  width: 100%;
-  margin: auto;
-  margin-top: 50px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 30px;
-  background-color: black;
-  border-radius: 1rem;
+    width: 100%;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px;
+    background-color: black;
+    border-radius: 1rem;
 }
 
 .gen-name .contents {
-  width: 80%;
-  margin: auto;
-  margin-top: 50px;
-  justify-content: space-between;
-  gap: 30px;
+    width: 100%;
+    margin-top: 50px;
+    justify-content: space-evenly;
+    gap: 30px;
 }
 
 .gen-name .contents section {
-  gap: 20px;
-  border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
-  padding: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
+    margin: auto;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
 }
 
 .gen-name p {
-  color: white;
-
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 1.2em;
-
-  text-align: center;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2em;
+    text-align: center;
 }
 
 @media (prefers-reduced-montion) {
-  .hidden {
-    transition: none;
-    filter: blur(0);
-    transform: translateX(0);
-  }
+    .hidden {
+        transition: none;
+        filter: blur(0);
+        transform: translateX(0);
+    }
 }
 
 .hidden {
-  opacity: 0;
-  filter: blur(10px);
-  transform: translateX(-100%);
-  transition: all 1s;
+    opacity: 0;
+    filter: blur(10px);
+    transform: translateX(-100%);
+    transition: all 1s;
 }
 
 .show {
-  opacity: 1;
-  filter: blur(0px);
-  transform: translateX(0);
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateX(0);
 }
 
 img {
-  width: 20vw;
-  border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
+    max-width: 25%;
+    height: auto;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 p.text {
-  background: linear-gradient(145deg, #1e2024, #23272b);
-  box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
-  border-radius: clamp(0.4rem, 0.75rem, 1rem);
-  width: 20%;
+    background: linear-gradient(145deg, #1e2024, #23272b);
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    border-radius: clamp(0.4rem, 0.75rem, 1rem);
+    width: 40%;
+    height: 10vh;
 }
 
 #firstText.show {
-  transform: translate(0%);
+    transform: translate(0%);
 }
+
 #secondText.show {
-  transform: translate(0%);
+    transform: translate(0%);
 }
+
 #thirdText.show {
-  transform: translate(0%);
+    transform: translate(0%);
 }
+
 #forthText.show {
-  transform: translate(0%);
+    transform: translate(0%);
 }
+
 #fifthText.show {
-  transform: translate(0%);
+    transform: translate(0%);
 }
