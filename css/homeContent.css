@@ -3,9 +3,9 @@
 
     /* Makes the wrapper the containing block for the absolutely positioned .side */
     top: 100vh;
-    height: 200vh;
 
     /* Match the height of the .side div */
+    height: 200vh;
     width: 100vw;
 }
 
@@ -17,6 +17,7 @@
     gap: 30px;
     background-color: black;
     border-radius: 1rem;
+    height: 100%;
 }
 
 .gen-name .contents {
